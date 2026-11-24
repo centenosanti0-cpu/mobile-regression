@@ -1,0 +1,8 @@
+{
+  "name": "mobile-regression",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "check": "node scan.mjs", "test": "node --test" },
+  "dependencies": { "playwright": "1.58.2" }
+}
